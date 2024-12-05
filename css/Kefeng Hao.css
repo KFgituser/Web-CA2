@@ -1,0 +1,67 @@
+
+
+.special {
+  font-weight:bold; 
+}
+
+.container1 {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  .container2 {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* buttons Styles */
+ .btn.primary {
+    width: 60%;
+	margin: 0 auto;
+	display: block;  
+	padding: 8px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer ;
+}
+ .btn.secondary {
+    background-color: #ffe133;
+    color: black;
+}
+ 
+ .error {
+  color: red;
+  font-size: 0.9em;
+}
+ 
+.error-field {
+  border: 2px solid red;
+  background-color: #ffe6e6;
+}
+
+select {
+  width: 50%;  
+  font-size: 15px;  
+  border-radius: 4px; 
+}
+
+/* Footer Styles */
+.footer {
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+ 
+}
+
+
+
+

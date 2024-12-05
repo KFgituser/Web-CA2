@@ -1,0 +1,152 @@
+
+p{
+	color:black;
+}
+
+.container1 {
+    max-width: 800px;
+	height:600px; 
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	 font-weight:bold; 
+}
+  .container2 {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container3{
+	 padding: 20px;
+}
+
+.container4{
+  display: flex; /* Align items in a row */
+  justify-content: space-between; /* Create space between sections */
+  align-items: center; /* Vertically align items */
+  padding-left: 420px;
+  padding-right:420px;  /* Add spacing around the section */
+  padding-bottom:20px;
+}
+
+ .container5 {
+display: grid;
+grid-template-columns: repeat(7, 1fr); /* 3 equal-width columns */
+padding-bottom: 95px;
+padding-top: 50px;
+}
+ .item1 {
+grid-column: 6 / 7 ;                 /* Spans from column 1 to column 3 (spanning 2 columns) */
+ }
+.item2 {
+grid-column: 2 / 5; /* Spans across 2 columns */
+}
+
+
+.Contact{
+padding-top:20px;
+padding-bottom:35px;
+	 
+}
+
+
+.social-icons {
+  display: flex; /* Align icons in a row */
+  gap: 20px; /* Add space between each icon */
+}
+
+.app-links {
+  display: flex; /* Align app buttons in a row */
+  gap: 10px; /* Add space between each button */
+}
+
+  .float-left {
+    float: left; /* Floats the element to the left */
+    width: 150px; /* Specify the width */
+    height: 150px; /* Specify the height */
+    margin-right: 10px; /* Adds space between the floated element and content */
+}
+
+
+.logo {
+  height: 24px; /* Adjust the size of the logo */
+  width: auto;
+}
+	
+/* buttons Styles */
+ .btn.primary {
+    width: 60%;
+	margin: 0 auto;
+	display: block;  
+	padding: 8px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer ;
+}
+ .btn.secondary {
+    background-color: #ffe133;
+    color: black;
+	cursor: pointer;
+	padding:1px;
+}
+ 
+ .error {
+  color: red;
+  font-size: 0.9em;
+}
+ 
+.error-field {
+  border: 2px solid red;
+  background-color: #ffe6e6;
+}
+
+select {
+  width: 50%;  
+  font-size: 15px;  
+  border-radius: 4px; 
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Content Section */
+.content {
+    min-height: 90vh;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+
+}
+
+.footer-section {
+  display: flex; /* Align items in a row */
+  justify-content: space-between; /* Create space between sections */
+  align-items: center; /* Vertically align items */
+  padding-left: 340px;
+  padding-right:340px;  /* Add spacing around the section */
+  padding-bottom:30px;
+}
+
+.footer-section2 {
+	display: flex;
+	padding-left: 450px;
+	padding-bottom:30px;
+	gap: 10px;
+}
