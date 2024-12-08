@@ -16,7 +16,7 @@
 
 	 // Name Validation
 	  const name = document.getElementById("name");
-	  if (name.value.trim() === "") {
+	  if (name === "") {
 		document.getElementById("nameError").innerText = "Please enter your name.";
 		name.classList.add("error-field");
 		isValid = false;
@@ -49,15 +49,13 @@
       // Validate Address
     const address = document.getElementById('address');
       if (address === '') {
-        document.getElementById('addressError').tinnerText  = 'Address is required.';
+        document.getElementById('addressError').innerText  = 'Address is required.';
        address.classList.add("error-field");
 	   isValid = false;
       } 
-
-
+	  
       // Validate Eircode format
       const eircode = document.getElementById('eircode');
-	 
 	  if (eircode === '') {
         document.getElementById('eircodeError').innerText  = 'Eircode is required.';
         eircode.classList.add("error-field");
@@ -67,6 +65,6 @@
          eircode.classList.add("error-field");
 		isValid = false;
       }
-     
+    
 	 return isValid; // Return false if validation fails
     }
